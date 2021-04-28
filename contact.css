@@ -1,0 +1,21 @@
+.contact-content{
+    height: 375px; 
+    height: 35vw;
+    /* background-color: rgb(119, 83, 83); */
+    display: flex;
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.contact-content::after{
+    content: "";
+     background-image: url(img/typewriter\ 2.svg);
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.2;
+    border-radius: 12px;
+    z-index: -1;
+}
